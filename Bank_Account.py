@@ -2,8 +2,6 @@ class BankAccount:
     def __init__(self, balance = 0, int_rate = 0.05): 
         self.int_rate = int_rate
         self.balance = balance
-        # your code here! (remember, instance attributes go here)
-        # don't worry about user info here; we'll involve the User class soon
     def deposit(self, amount):
         self.balance = self.balance + amount
     def withdraw(self, amount):
